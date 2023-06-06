@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+svg {
+    width: 19px;
+    height: 19px;
+}
+.el-menu-item.is-active{
+    active-background-color:#6b7782 !important;
+    background-color: #3fa0fa !important;
+    color: #ffffff !important;
+}
+.el-alert {
+    margin: 20px 0 0;
+}
+.el-alert:first-child {
+    margin: 0;
+}
+/* 日期控件样式 */
+.time_box{
+    display: inline-block;
+}
+.el_input_box{
+    display: inline-block;
+    width: 160px;
+}
+/*
+    隐藏滚动条
+*/
+::-webkit-scrollbar {
+
+    display: none; /* Chrome Safari */
+    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+.aside_box::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+}
+.aside_box {
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+}
+el-menu-item{
+    background-color: #6b7782;
+}
+
+/*
+    标题字样
+ */
+.title_style{
+    width: 100%;
+    height: 47px;
+    font-size: 20px;
+    color: #878787;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/*
+    导航栏
+*/
+.detail_box_bread{
+    /*  屏幕自适应宽度 - 菜单宽度 - 面包屑左侧宽度 - 面包屑右侧宽度  */
+    width: calc(100vw - calc(100vw*0.15) - 10px - 10px);
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    display:inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.el-table__body-wrapper{
+    font-size: 10px;
+}
+
+.page_and_button{
+    width: 97%;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.text_family{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}

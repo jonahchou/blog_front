@@ -1,0 +1,240 @@
+/*
+    首页内容区域统一样式
+*/
+/*
+    内容区域大小和灰色背景
+*/
+.detail_box{
+    width: calc(100vw - calc(100vw*0.15)) ;
+    height: 90vh;
+    background-color: #eef0f2;
+    overflow: auto;
+}
+
+
+.hr_style{
+    width: 100%;
+    height: 1px;
+    background-color: #ececec;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.search_detail{
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.search_detail td{
+    margin-left: 20px;
+    float: left;
+}
+
+.search_input{
+    width: 150px;
+}
+
+/*
+    滚动展示栏
+*/
+.detail_box_scrolling{
+    /*  屏幕自适应宽度 - 菜单宽度 - 滚动展示栏左侧宽度 - 滚动展示栏右侧宽度  */
+    width: calc(100vw - calc(100vw*0.15) - 10px - 10px);
+    /*height: 150px;*/
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.detail_box_bread_title{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.search_box{
+    width: calc(100% - 20px);
+    /*height: 150px;*/
+    margin-left: 10px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.detail_box_right_box{
+    /*  屏幕自适应宽度 - 菜单宽度 - 滚动展示栏左侧宽度 - 滚动展示栏右侧宽度  */
+    width: calc((100vw - calc(100vw*0.15) - 10px - 10px)/2 + 5.5vw );
+    height: 250px;
+    background-color: #ffffff;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.detail_box_left_box_title{
+    margin-left: 10px;
+}
+.detail_box_left_box hr{
+    width: calc(((100vw - calc(100vw*0.15) - 10px - 10px)/2 - 5px)*0.7);
+    border: none;
+    height: 1px;
+    background-color:#ececec;
+    margin-top: 10px;
+}
+.detail_box_left_box_icon{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    cursor:pointer;
+}
+.detail_box_right_box_left{
+    width:  calc(((100vw - calc(100vw*0.15) - 10px - 10px)/2 + 5.5vw)/2);
+    height: 250px;
+    float: left;
+    display: inline-block;
+}
+.detail_box_right_box_left_data{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 150px;
+    height: 80px;
+    display: inline-block;
+}
+/*
+    竖向分割线，如需设置长度，请在行内设置，或重写此样式
+*/
+.line{
+    margin-top: 10px;
+    padding-top: 10px;
+    background:#E7E7E7;/*背景色为浅灰色*/
+    width:1px;/*设置宽高*/
+    height:70px;
+    position:relative;/*调整位置*/
+    /*left:calc(((100vw - calc(100vw*0.15) - 10px - 10px)/2 + 5.5vw)/2 - 10vw);*/
+    margin-right: 20px;
+    float:right;/*让此div与前面的并排显示*/
+    display: inline-block;
+}
+.detail_box_right_box_left_data_title{
+    width: 140px;
+    height: 39px;
+    margin-left: 30px;
+}
+.detail_box_right_box_right_data_title{
+    width: 120px;
+    height: 39px;
+}
+
+.detail_box_right_box_right{
+    width:  calc(((100vw - calc(100vw*0.15) - 10px - 10px)/2 + 5.5vw)/2);
+    height: 250px;
+    float: right;
+    display: inline-block;
+}
+.detail_box_financial{
+    margin-top: 10px;
+    margin-left: 10px;
+    width:  calc(100vw - calc(100vw*0.15) - 10px - 10px);
+    height: 65vh;
+}
+.detail_box_financial_title{
+    width: calc(100vw - calc(100vw*0.15) - 10px - 10px);
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.detail_box_financial hr{
+    width: calc(100vw - calc(100vw*0.15) - 10px - 10px );
+    border: none;
+    height: 1px;
+    background-color:#ececec;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.detail_box_financial_title_text{
+    margin-left: 10px;
+}
+.detail_box_financial_meet_time{
+    margin-left: 200px;
+}
+.detail_box_financial_belong_project{
+    margin-left: 10vw;
+    margin-right: 30px;
+}
+
+/* 三个统计图 */
+.detail_box_financial_statistics{
+    width: calc(100vw - calc(100vw*0.15) - 10px - 10px);
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.detail_box_financial_statistics_one{
+    width: calc((100vw - calc(100vw*0.15) - 10px - 10px)*0.35);
+    height: 300px;
+    display: inline-block;
+}
+.detail_box_financial_statistics_two{
+    width: calc((100vw - calc(100vw*0.15) - 10px - 10px)*0.35);
+    height: 300px;
+    display: inline-block;
+}
+.detail_box_financial_statistics_three{
+    width: calc((100vw - calc(100vw*0.15) - 10px - 10px)*0.3);
+    height: 300px;
+    display: inline-block;
+}
+
+.detail_box_meet_list{
+    width: calc(100vw - calc(100vw*0.15) - 10px - 10px);
+    margin-bottom: 70px;
+    background-color: #ffffff;
+}
+
+.page_and_button{
+    width: 90%;
+    height: 80px; margin-left: 30px;margin-top: 40px;margin-bottom: 30px
+}
+
+.left_page{
+    width: 300px;
+    float: left;
+}
+
+.function_button{
+    width: 303px;
+    float: right;
+}
+
+.function_button1{
+    width: 303px;
+    float: right;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-right:10px;
+    margin-top:1px;
+}
+
+.inline-block .el-upload--text {
+    display: inline-block;
+}
+
+.inline-block .el-upload-list--text{
+    display: none;
+}
+
+.margin-change{
+    display: inline-block;
+    margin-left:10px;
+}
